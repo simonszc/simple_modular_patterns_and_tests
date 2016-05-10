@@ -10,4 +10,10 @@ describe("Greeter", function(){
 
     expect(results).to.deep.equal(expected);
   });
+  it("should take the name inputted", function(){
+    var results = execute.somename;
+    var expected = process.argv[2];
+
+    expect(results).to.deep.equal(expected);
+  })
 })
