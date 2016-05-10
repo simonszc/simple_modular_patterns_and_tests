@@ -1,6 +1,7 @@
 //tester
 var expect = require("chai").expect;
 var greeter = require("../lib/greet.js")
+var execute = require("../execute.js")
 
 describe("Greeter", function(){
   it("should return 'hello' + name", function(){

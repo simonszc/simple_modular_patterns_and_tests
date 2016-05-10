@@ -1,5 +1,4 @@
-var greeter = require("./lib/greet.js");
+const greeter = require("./lib/greet.js");
+var somename = process.argv[2];
 
-(function() {
-  console.log(greeter.greet(process.argv.slice(2)));
-})
+console.log(greeter.greet(somename));
